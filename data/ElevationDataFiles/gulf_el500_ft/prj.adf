@@ -1,0 +1,14 @@
+Projection    ALBERS                                                            
+Datum         NAD83                                                             
+Zunits        FEET                                                              
+Units         METERS                                                            
+Spheroid      GRS1980                                                           
+Xshift        0.0000000000                                                      
+Yshift        0.0000000000                                                      
+Parameters                                                                      
+ 26  0 0.0000 /* 1st standard parallel                                          
+ 30 30 0.0000 /* 2nd standard parallel                                          
+-89  0 0.0000 /* central meridian                                               
+ 0  0 0.0000 /* latitude of projection's origin                                 
+0.00000 /* false easting (meters)                                       
+0.00000 /* false northing (meters)                                      

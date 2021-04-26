@@ -1,0 +1,2 @@
+200708221251   0     1     0jjkosovich GULF_EL500_B = CON(ISNULL(xxbluegrd),255,xxbluegrd)
+200708221251   0     0     0jjkosovich PROJECTDEFINE GRID gulf_el500_b

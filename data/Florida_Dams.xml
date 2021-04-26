@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <origin/>
+                <pubdate>20050209</pubdate>
+                <title>Florida Dams</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://publicfiles.dep.state.fl.us/otis/gis/data/NID_DAMS.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset is a subset (containing records of the dams present in the state of Florida) of The National Inventory of Dams. Congress first authorized the US Army Corps of Engineers to inventory dams in the United States with the National Dam Inspection Act (Public Law 92-367) of 1972. The NID was first published in 1975, with a few updates as resources permitted over the next ten years. The Water Resources Development Act of 1986 (P.L. 99-662) authorized the Corps to maintain and periodically publish an updated NID, with re-authorization and a dedicated funding source provided under the Water Resources Development Act of 1996 (P.L. 104-3). The Corps also began close collaboration with the Federal Emergency Management Agency (FEMA) and state regulatory offices to obtain more accurate and complete information. The National Dam Safety and Security Act of 2002 (P.L. 107-310) reauthorized the National Dam Safety Program and included the maintenance and update of the NID by the Corps of Engineers. The most recent Dam Safety Act of 2006 reauthorized the maintenance and update of the NID. The NID consists of dams meeting at least one of the following criteria; 1) High hazard classification - loss of one human life is likely if the dam fails, 2) Significant hazard classification - possible loss of human life and likely significant property or environmental destruction, 3) Equal or exceed 25 feet in height and exceed 15 acre-feet in storage, 4) Equal or exceed 50 acre-feet storage and exceed 6 feet in height. The goal of the NID is to include all dams in the U.S. that meet these criteria, yet in reality, is limited to information that can be gathered and properly interpreted with the given funding. The Inventory initially consisted of approximately 45,000 dams, which were gathered from extensive record searches and some feature extraction from aerial imagery. Since continued and methodical updates have been conducted, data collection has been focused on the most reliable data sources, which are the various federal and state government dam construction and regulation offices. In most cases, dams within the NID criteria are regulated (construction permit, inspection, and/or enforcement) by federal or state agencies, who have basic information on the dams within their jurisdiction. Therein lies the biggest challenge, and most of the effort to maintain the NID; periodic collection of dam characteristics from 49 states (Alabama currently has no dam safety legislation or formal dam safety program), Puerto Rico, and 18 federal offices. The Corps resolves duplicative and conflicting data from the 68 data sources, which helps obtain the more complete, accurate, and updated NID.See Metadata for contact information.</abstract>
+            <purpose>The database record for a dam in the National Inventory consists of data from participating agencies submitted in accordance with the update methodology, the name of the agency providing data and the date the data was submitted. About 20,000 records were merged from multiple data sources.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20190610</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date last updated in the GIS library.</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.503672</westbc>
+                <eastbc>-79.884625</eastbc>
+                <northbc>31.027204</northbc>
+                <southbc>25.270600</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Water Resources (Inland)</themekey>
+                <themekey>National Inventory of Dams</themekey>
+                <themekey>hydrography</themekey>
+                <themekey>dam safety</themekey>
+                <themekey>dams</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+                <placekey>USA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>FDEP, Division of Water Resource Management, Florida Dam Safety Program</cntorg>
+                    <cntper>Tracy Woods P.G</cntper>
+                </cntorgp>
+                <cntpos>State Dam Safety Officer</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd MS 3595</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-7530</cntvoice>
+                <cntemail>Tracy.Woods@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Department of Agriculture (Forest Service, Natural Resources Conservation Service), Department of Energy, Department of Defense (U.S. Army Corps of Engineers,U.S Army, U.S Navy, Air Force), Department of Interior (Bureau of Indian Affairs, Bureau of Land Management,Bureau of Reclamation, Fish and Wildlife Service, Geological Survey, National Park Service), Department of Labor's Mine Safety and Health Administration, Federal Energy Regulatory Commision, Department of State's International Boundary and Water Commission, Tennessee Valley Authority, U.S. Nuclear Regulatory Commission, all 50 States, Guam, Virgin Islands, Puerto Rico.</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Data downloaded from the National Inventory of Dams website:http://geo.usace.army.mil/pgis/f?p=397:1:0 Added as a new layer in ArcSDE. Data replaces BASE.NID_DAMS_2008/NID Dams data in DataMiner and MapDirect.</procdesc>
+                <procdate>20130110</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Spreadsheet downloaded from NID-USACE website - https://nid-test.sec.usace.army.mil/ords/f?p=105:19:14264089773570::NO::: Converted the data to a geodatabase feature class. Projected the data to 'NAD_1983_HARN_Florida_GDL_Albers' and updated the same in the GIS library.</procdesc>
+                <procdate>20190610</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>1110</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>BASE.NID_DAMS</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>RECORDID</attrlabl>
+                <attrdef>Assigned by TEC.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DAM_NAME</attrlabl>
+                <attrdef>Official name of the dam. No abbreviations used unless a part of the official name. For dams that do not have an official name, the popular name is used</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OTHER_DAM_NAME</attrlabl>
+                <attrdef>Reservoir name or names in common use other than the official name of the dam. Names are separated with semi-colons. Leave blank if not applicable.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DAM_FORMER_NAME</attrlabl>
+                <attrdef>Any previous reservoir or dam name(s), if changed. Names are separated with semi-colons.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATEID</attrlabl>
+                <attrdef>Official State or Agency identification number for the dam.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NIDID</attrlabl>
+                <attrdef>The official NID identification number for the dam, known formerly as the National ID. This is a required field, and must have an entry for each dam included in the NID. This field is used as the unique identifier for each dam record. The first two characters of the identity are the state two-letter abbreviation, based on the location of the dam. The last five characters of the identity are a unique number (AB#####).</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>Latitude at dam centerline as a single value in decimal degrees, NAD83.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+                <attrdef>Longitude at dam centerline as a single value in decimal degrees, NAD83</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SECTION_</attrlabl>
+                <attrdef>Dam location in terms of Section, Township, and Range. Meridian location is included if it is needed to locate the dam. (Optional field)</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>Name of the county in which the dam is located.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RIVER</attrlabl>
+                <attrdef>Official name of the river or stream on which the dam is built. If the stream is unnamed, it is identified as a tributary ("TR") to the named river. If the dam is located offstream, the name of the river or stream is entered plus "-OS" or "OFFSTREAM".</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>Name of the nearest city, town, or village that is most likely to be affected by floods resulting from the failure of the dam.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DISTANCE</attrlabl>
+                <attrdef>Distance from the dam to the nearest affected City/Town/Village, to the nearest mile (and tenth if appropriate).</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OWNER_NAME</attrlabl>
+                <attrdef>Name of the owner of the dam.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OWNER_TYPE</attrlabl>
+                <attrdef>Code indicating owner type.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>F</edomv>
+                        						
+                        <edomvd>Federal</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>State</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>L</edomv>
+                        						
+                        <edomvd>Local Government</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>U</edomv>
+                        						
+                        <edomvd>Public Utility</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>P</edomv>
+                        						
+                        <edomvd>Private</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PRIVATE_DAM</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DAM_DESIGNER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DAM_TYPE</attrlabl>
+                <attrdef>Code indicating the type of dam (in order of importance).Codes are concatenated if the dam is a combination of several types. For example, the entry CNCB would indicate a concrete buttress dam type.</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>RE</edomv>
+                        						
+                        <edomvd>Earth</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>ER</edomv>
+                        						
+                        <edomvd>Rockfill</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>PG</edomv>
+                        						
+                        <edomvd>Gravity</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>CB</edomv>
+                        						
+                        <edomvd>Buttress</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>VA</edomv>
+                        						
+                        <edomvd>Arch</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>MV</edomv>
+                        						
+                        <edomvd>Multi-arch</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>CN</edomv>
+                        						
+                        <edomvd>Concrete</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>MS</edomv>
+                        						
+                        <edomvd>Masonry</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>ST</edomv>
+                        						
+                        <edomvd>Stone</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>TC</edomv>
+                        						
+                        <edomvd>Timber Crib</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>OT</edomv>
+                        						
+                        <edomvd>Other</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CORE</attrlabl>
+                <attrdef>Code indicating the position, type of watertight member and certainty.</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>POSITION: F</edomv>
+                        						
+                        <edomvd>Upstream facing</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>H</edomv>
+                        						
+                        <edomvd>homogeneous dam</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>I</edomv>
+                        						
+                        <edomvd>core</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>X</edomv>
+                        						
+                        <edomvd>unlisted/unknown</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>TYPE: A</edomv>
+                        						
+                        <edomvd>bituminous concrete</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>C</edomv>
+                        						
+                        <edomvd>Concrete</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>E</edomv>
+                        						
+                        <edomvd>earth</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>M</edomv>
+                        						
+                        <edomvd>metal</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>P</edomv>
+                        						
+                        <edomvd>plastic</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>X</edomv>
+                        						
+                        <edomvd>unknown/unlisted</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>CERTAINTY: K</edomv>
+                        						
+                        <edomvd>known</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>Z</edomv>
+                        						
+                        <edomvd>estimated</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FOUNDATION</attrlabl>
+                <attrdef>Code for the material upon which dam is founded, and certainty.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>R</edomv>
+                        						
+                        <edomvd>Rock</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>RS</edomv>
+                        						
+                        <edomvd>Rock and Soil</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>Soil</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>U</edomv>
+                        						
+                        <edomvd>Unlisted/Unknown</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PURPOSES</attrlabl>
+                <attrdef>Codes indicating the purposes for which the reservoir is used.The order indicates the relative decreasing importance of the purpose. Codes are concatenated if the dam has multiple purposes. For example, SCR would indicate the primary purposes, Water Supply and Flood Control and Storm Water Management, followed by Recreation.</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>I</edomv>
+                        						
+                        <edomvd>Irrigation</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>H</edomv>
+                        						
+                        <edomvd>Hydroelectric</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>C</edomv>
+                        						
+                        <edomvd>Flood Control and Storm Water Management</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>N</edomv>
+                        						
+                        <edomvd>Navigation</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>W</edomv>
+                        						
+                        <edomvd>Water Supply</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>R</edomv>
+                        						
+                        <edomvd>Recreation</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>P</edomv>
+                        						
+                        <edomvd>Fire Protection, Stock, Or Small Farm Pond</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>F</edomv>
+                        						
+                        <edomvd>Fish and Wildlife Pond</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>D</edomv>
+                        						
+                        <edomvd>Debris Control</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>T</edomv>
+                        						
+                        <edomvd>Tailings</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>O</edomv>
+                        						
+                        <edomvd>Other</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>YEAR_COMPLETED</attrlabl>
+                <attrdef>Year when the original main dam structure was completed, optionally followed by code ("E") to indicate an estimated date. If unknown, and reasonable estimate is unavailable, "0000" will be used.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>YEAR_MODIFIED</attrlabl>
+                <attrdef>Year (four digit) when major modifications or rehabilitation of dam or major control structures were completed. Major modifications are defined as a structural, foundation, or mechanical construction activity which significantly restores the project to original condition; changes the project's operation; capacity or structural characteristics (e.g. spillway or seismic modification); or increases the longevity, stability, or safety of the dam and appurtenant structures. Entries should be followed by one of more of the following codes indicating type of modification:Up to ten modifications can be entered, separated by semicolons.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>Structural</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>F</edomv>
+                        						
+                        <edomvd>Foundation</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>M</edomv>
+                        						
+                        <edomvd>Mechanical</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>E</edomv>
+                        						
+                        <edomvd>Seismic</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>H</edomv>
+                        						
+                        <edomvd>hydraulic</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>O</edomv>
+                        						
+                        <edomvd>Other</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DAM_LENGTH</attrlabl>
+                <attrdef>Length of the dam, in feet, which is defined as the length along the top of the dam. This length also includes the spillway, powerplant, navigation lock, fish pass, etc., where these form part of the length of the dam. If detached from the dam, these structures should not be included.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DAM_HEIGHT</attrlabl>
+                <attrdef>Height of the dam, in feet to the nearest foot, which is defined as the vertical distance between the lowest point on the crest of the dam and the lowest point in the original streambed.</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>structural</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>F</edomv>
+                        						
+                        <edomvd>foundation</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>M</edomv>
+                        						
+                        <edomvd>mechanical</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>seismic</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>H</edomv>
+                        						
+                        <edomvd>hydraulic</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>O</edomv>
+                        						
+                        <edomvd>other</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STRUCTURAL_HEIGHT</attrlabl>
+                <attrdef>Structural height of the dam, in feet to the nearest foot, which is defined as the vertical distance from the lowest point of the excavated foundation to the top of the dam.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HYDRAULIC_HEIGHT</attrlabl>
+                <attrdef>Hydraulic height of the dam, in feet to the nearest foot, which is defined as the vertical difference between the maximum design water level and the lowest point in the original streambed.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NID_HEIGHT</attrlabl>
+                <attrdef>A calculated field based on the maximum value of field items #25 Dam Height, #26 Structural Height, and #27 Hydraulic Height, providing a single height value to facilitate database queries.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MAX_DISCHARGE</attrlabl>
+                <attrdef>Number of cubic feet per second (cu ft/sec) which the spillway is capable of discharging when the reservoir is at its maximum designed water surface elevation.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MAX_STORAGE</attrlabl>
+                <attrdef>Maximum storage, in acre-feet, which is defined as the total storage space in a reservoir below the maximum attainable water surface elevation, including any surcharge storage.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NORMAL_STORAGE</attrlabl>
+                <attrdef>Normal storage, in acre-feet, which is defined as the total storage space in a reservoir below the normal retention level, including dead and inactive storage and excluding any flood control or surcharge storage.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NID_STORAGE</attrlabl>
+                <attrdef>A calculated field based on the maximum value of field items #30 Maximum Storage and #31 Normal storage, providing a single storage value to facilitate database queries.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SURFACE_AREA</attrlabl>
+                <attrdef>Surface area, in acres, of the impoundment at its normal retention level.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DRAINAGE_AREA</attrlabl>
+                <attrdef>Drainage area of the dam, in square miles, which is defined as the area that drains to a particular point (in this case, the dam) on a river or stream.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HAZARD</attrlabl>
+                <attrdef>Code indicating the potential hazard to the downstream area resulting from failure or misoperation of the dam or facilities:</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>L</edomv>
+                        						
+                        <edomvd>Low</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>Significant</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>H</edomv>
+                        						
+                        <edomvd>High</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>EAP</attrlabl>
+                <attrdef>Code, indicating whether the dam has an Emergency Action Plan (EAP) developed by the dam owner. An EAP is defined as a plan of action to be taken to reduce the potential for property damage and loss of life in an area affected by a dam failure or large flood.</attrdef>
+                <attrdefs>NID</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>Y</edomv>
+                        						
+                        <edomvd>Yes</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>N</edomv>
+                        						
+                        <edomvd>No</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NR</edomv>
+                        						
+                        <edomvd>Not Required by submitting agency</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>INSPECTION_DATE</attrlabl>
+                <attrdef>Date of the most recent inspection of the dam prior to the transmittal of the data by the submitting agency. Date fields require day, month and year information, and various alphanumeric or numeric combinations are used.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>INSPECTION_FREQUENCY</attrlabl>
+                <attrdef>Scheduled frequency interval for periodic inspections, in years. NOTE: Replacement for "Phase I Inspection" field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATE_REG_DAM</attrlabl>
+                <attrdef>Code indicating whether the dam is "State Regulated" under the National Dam Safety Program Act: A "State Regulated Dam" is defined as a dam meeting the NID criteria for which the State executes one or more of the following general responsibilities: (a) Inspection; (b) Enforcement; or (c) Permitting.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>Y</edomv>
+                        						
+                        <edomvd>Yes</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>N</edomv>
+                        						
+                        <edomvd>No</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATE_REG_AGENCY</attrlabl>
+                <attrdef>Name of the primary state agency with regulatory or approval authority over the dam.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SPILLWAY_TYPE</attrlabl>
+                <attrdef>Code that describes the type of spillway:</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>C</edomv>
+                        						
+                        <edomvd>Controlled</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>U</edomv>
+                        						
+                        <edomvd>Uncontrolled</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>N</edomv>
+                        						
+                        <edomvd>None</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SPILLWAY_WIDTH</attrlabl>
+                <attrdef>Width of the spillway, to the nearest foot, available for discharge when the reservoir is at its maximum designed water surface elevation.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OUTLET_GATES</attrlabl>
+                <attrdef>Code(s) that describe the type of spillway and controlled outlet gates, if any.Enter up to five types in decreasing size order, separated by semicolons, followed by number of gates.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>X</edomv>
+                        						
+                        <edomvd>None</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>U</edomv>
+                        						
+                        <edomvd>Uncontrolled</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>T</edomv>
+                        						
+                        <edomvd>Tainter (radial)</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>L</edomv>
+                        						
+                        <edomvd>Vertical Lift</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>R</edomv>
+                        						
+                        <edomvd>Roller</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>B</edomv>
+                        						
+                        <edomvd>Bascule</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>D</edomv>
+                        						
+                        <edomvd>Drum</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>N</edomv>
+                        						
+                        <edomvd>Needle</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>F</edomv>
+                        						
+                        <edomvd>Flap</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>S</edomv>
+                        						
+                        <edomvd>Slide (sluice gate)</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>V</edomv>
+                        						
+                        <edomvd>Valve</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>O</edomv>
+                        						
+                        <edomvd>Other controlled</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>VOLUME</attrlabl>
+                <attrdef>Total number of cubic yards occupied by the materials used in the dam structure. Portions of powerhouse, locks, and spillways are included only if they are an integral part of the dam and required for structural stability.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NUMBER_OF_LOCKS</attrlabl>
+                <attrdef>Number of existing navigation locks for the project.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LENGTH_OF_LOCKS</attrlabl>
+                <attrdef>Length of the primary navigation lock to the nearest foot</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WIDTH_OF_LOCKS</attrlabl>
+                <attrdef>Width of the primary navigation lock to the nearest foot</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_FUNDING</attrlabl>
+                <attrdef>Code identifying which federal agency was involved in funding of the dam. Codes are concatenated if several agencies were involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_DESIGN</attrlabl>
+                <attrdef>Code identifying which federal agency was involved in the design of the dam. Codes are concatenated if several agencies were involved.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FED_CONSTRUCTION</attrlabl>
+                <attrdef>Code identifying which federal agency was involved in the construction of the dam. Codes are concatenated if several agencies were involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_REGULATORY</attrlabl>
+                <attrdef>Code identifying which federal agency was involved in the construction of the dam. Codes are concatenated if several agencies were involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_INSPECTION</attrlabl>
+                <attrdef>Code identifying which federal agency is involved in the inspection of the dam. Codes are concatenated if several agencies are involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_OPERATION</attrlabl>
+                <attrdef>Code identifying which federal agency is involved in the operation of the dam. Codes are concatenated if several agencies are involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_OWNER</attrlabl>
+                <attrdef>Code identifying which federal agency partly or wholly owns the dam. Codes are concatenated if several owners are involved.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FED_OTHER</attrlabl>
+                <attrdef>Code identifying which federal agency is involved in other aspects of the dam. Codes are concatenated if several owners are involved.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SOURCE_AGENCY</attrlabl>
+                <attrdef>Code identifying the federal or state source agency that has provided the field data on the dam. The code used for a state source agency is the two letter abbreviation for the state; the code used for a federal source agency is the Federal Agency Code defined in the table under Overview Description</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATE</attrlabl>
+                <attrdef>The two letter abbreviation for the state in which the dam is located. A calculated field based on the field item #6 NIDID.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SUBMIT_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>URL_ADDRESS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CONG_NAME</attrlabl>
+                <attrdef>The congressional person representing the district where the dam is located. A calculated field based on the latitude/longitude coordinate of the dam.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PARTY</attrlabl>
+                <attrdef>The political party of the congressional person. A calculated field based on the congressional person and district fields.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CONG_DIST</attrlabl>
+                <attrdef>The congressional district where the dam is located. A calculated field based on the latitude/longitude coordinate of the dam.</attrdef>
+                <attrdefs>NID</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OTHERSTRUCTUREID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NUMSEPARATESTRUCTURES</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>PERMITTINGAUTHORITY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>INSPECTIONAUTHORITY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ENFORCEMENTAUTHORITY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>JURISDICTIONALDAM</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EAP_LAST_REV_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>FEDERAL AGENCY CODE TABLE 
+
+Department of Agriculture: 
+Natural Resources Conservation Serv  - USDA NRCS
+(Formerly Soil Conservation Serv (SCS) )
+Forest Service - USDA FS   
+Rural Housing Service - USDA RHS 
+(Formerly Farmers Home Loan)   
+
+Department of Defense:
+US Army Corps of Engineers - CE 
+US Army - DOD USA 
+US Navy - DOD USN 
+US Air Force - DOD USAF 
+
+Department of Interior: 
+Bureau of Reclamation - DOI BR 
+Bureau of Indian Affairs - DOI BIA 
+Bureau of Land Management - DOI BLM 
+Fish and Wildlife Service - DOI FWS 
+Geological Survey - DOI GS 
+National Park Service - DOI NPS 
+
+Department of Labor: 
+Mine Safety and Health Administration - DOL MSHA 
+
+Department of State:
+International Boundary and Water Commission - IBWC 
+
+Department of Energy: 
+Federal Energy Regulatory Commission - DOE FERC
+
+Nuclear Regulatory Commission - US NRC</eaover>
+        </overview>
+    </eainfo>
+    <metainfo>
+        <metd>20190809</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>MS 6520</address>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

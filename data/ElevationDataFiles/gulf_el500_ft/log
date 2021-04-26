@@ -1,0 +1,4 @@
+200511071127   2    29     0jjkosovich GULF_EL500_FT = resample(GULF_EL30_FT,500,bilinear)
+200511071234   6     0     0jjkosovich projectdefine grid GULF_EL500_FT
+200511071255   0     0     0jjkosovich projectcopy cover COV_NOPROJECT grid GULF_EL500_FT
+200708221247   0     0     0jjkosovich projectdefine grid GULF_EL500_FT

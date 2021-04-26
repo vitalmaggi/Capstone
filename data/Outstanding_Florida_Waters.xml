@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <origin/>
+                <pubdate>19960101</pubdate>
+                <title>Outstanding Florida Waters</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://publicfiles.dep.state.fl.us/otis/gis/data/OUTSTANDING_FLORIDA_WATERS.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Outstanding Florida Waters, (OFW), are waters designated worthy of special protection because of their natural attributes. This special designation is applied to certain waters (including adjacent wetlands) and is intended to protect and maintain existing acceptable quality standards. The OFW layer is a GIS spatial dataset that represents the OFW boundaries throughout the state of Florida. This project involves adding new data to and modifying existing data within the OFW data layer for better accuracy and representation. Boundaries for Outstanding Florida Waters (OFWs) as described in Section 62-302.700, F.A.C. This layer includes all three types of OFWs: OFW Aquatic Preserves, Special OFWs, and Other OFWs.</abstract>
+            <purpose>The legislature of the State of Florida established a category of surface water features called "Outstanding Florida Waters" that are to be protected from any degradation from their current water quality classification. A description of the water features eligible for inclusion as an OFW and a list of currently established OFWs is contained in Section 62-302.700, F.A.C., (Attachment 4). Additionally, "Waters" are defined in Section 403.031, F.S., as "... rivers, lakes, streams, springs, impoundments, and wetlands ... including fresh, brackish, saline, tidal, surface, and underground waters." Chapter 62-340, F.A.C., "Delineation of the Landward Extent of Wetlands and Surface Waters" details the plants and soil types that indicate the existence of wetland or surface water, under authority granted in Section 373.421, F.S. Most of the OFWs are contained within the boundaries of publicly-owned lands managed for conservation and/or recreation so that the extent of the water features that are protected can be defined by the legal boundary of the park, recreation area, preserve, or other publicly-owned property. Three categories of OFWs do not have boundaries so described: 1) the three river segments designated as wild and scenic under the Florida Scenic and Wild Rivers Program, federal Wild and Scenic Rivers Act and the Myakka River Wild and Scenic Designation and Preservation Act; 2) the 16 streams or lakes in the National Forests, and 3) the 56 streams and lakes defined as Special Waters. As a portion of an Environmental Protection Agency Wetland Protection grant, a separate project to reduce the boundaries of the OFWs to a digital format was undertaken by the FDEP. Some digital data existed and was compiled from many different source formats and scales. These data were incorporated into a statewide coverage but because of the lack of documentation and concerns about accuracy, other approaches were investigated to improve portions of the data. Other divisions within the FDEP have felt the need to develop digital coverages for the State-owned or managed properties they oversee and are in the process of reducing the legal descriptions on deeds into a digital form by interpreting and transferring the legal description to a quad sheet or using one or another of the COGO (COordinate GeOmetry) systems. These lands include the Aquatic Preserves and the State Park boundaries. Where possible, to minimize duplication of effort, the Division of Environmental Permitting either acquired the boundaries already created for the Aquatic Preserves, or entered into a joint venture to create boundaries for the 145 lands managed by the Division of Parks and Recreation.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20200406</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date last updated in the GIS library</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Quarterly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.639339</westbc>
+                <eastbc>-79.879362</eastbc>
+                <northbc>31.042714</northbc>
+                <southbc>24.376324</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>oceans</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Oceans and Estuaries</themekey>
+                <themekey>Florida</themekey>
+                <themekey>Water Resources (Inland)</themekey>
+                <themekey>Waters</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This dataset should not be considered a complete and comprehensive representation. The Special Waters boundaries are provisional. Until we receive full funding to finalize this data, we will coordinate with our field staff to evaluate the boundaries, record needed changes, and make the appropriate adjustments to the boundaries as an on-going programmatic effort. These boundaries are stored in the OFWspec data layer. Aquatic Preserve information is availiable in two different versions. This version contains APs listed as OFWs. Aquatic Preserve information is also available in the Aquatic Preserves layers maintained by DEP/CAMA. Currently, all aquatic preserves are also Outstanding Florida Waters (OFWs). This was not the case in the past and may change again in the future, but an Aquatic Preserve was dropped. It's important to note that there are three aquatic preserves whose OFW boundaries differ from the aquatic preserve boundary. These are described more specifically in the OFW rule 62-302.700: Indian River Malabar to Vero expansion - does not include portions of Sebastian and Turkey Creeks; Wekiva River - does not include portions of the St. Johns River; and Big Bend - the OFW rule specifies certain "incorporated and unincorporated areas that are excluded."</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP), DEAR</cntorg>
+                    <cntper>Janet Klemm</cntper>
+                </cntorgp>
+                <cntpos>Environmental Specialist III</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-8427</cntvoice>
+                <cntemail>Janet.Klemm@floridadep.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                    <cntper>Ronald Hughes</cntper>
+                </cntorgp>
+                <cntpos>Environmental Specialist III</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-8541</cntvoice>
+                <cntemail>Ronald.Hughes@floridadep.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>DEP</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <srcinfo>
+                <srcscale>24</srcscale>
+                <typesrc>None</typesrc>
+            </srcinfo>
+            <procstep>
+                <procdesc>35 NULL and 305 'OUT PARCEL' records were removed at the request of Richard Butgereit and Kathleen Swanson of ERP.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset aquired from WRM and inserted in ArcSDE. This updated dataset has 3763 records.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>OFW Aquatic Preserves Category: Aquatic Preserve boundaries were created by the Florida Marine Research Institute (FMRI)/CAMRA. We are using these boundaries to represent the OFWs that are also designated Aquatic Preserves Special OFW Category : The streams and lakes that do not have defined legal boundaries were automated using methods other than transferring legal descriptions into a digital format. Because of the interpretive nature of the boundaries for the Special Waters Category, we have avoided making any implication that this line represents the ordinary high water line that separates the State-owned lands from privately-owned lands by referring to this line as a fuzzy boundary or trip wire. Final determinations of these boundaries will require on-site inspections or aerial photo-interpretations coupled with field verifications and will not be carried out for any of the streams and lakes designated as OFWs, in the short term. These interpretive boundaries were designed to alert persons making land use decisions that on-site inspections or further investigations by qualified soils scientists or botanists may be necessary. These interpretive boundaries are necessary because if a proposed activity falls within or near an OFW boundary, different, more stringent permitting review standards are imposed on the permittee's application. The OFW Special Water boundary is based on the contour lines from the U.S. Geological Survey 1:24000-scale quadrangle maps. This boundary is labeled with the elevation of those contours that are most likely to meet the criteria of supporting obligate and facultative plants and hydric soils. These elevations are 5 or 10 feet apart vertically, so that other information was used to modify the line. Currently, the best additional information is a set of EOSAT satellite images from 1992. The 1994 EOSAT imagery was also available, but because 1994 was an extremely wet year, the spectral reflectance values were judged less reliable. However, other indications that the area inside the Special Waters delineation line is likely to meet the rule's criteria are the swamp symbols on the quadrangle, the change in slope that is indicative of the seepage line, or springs that indicate that the groundwater is near the surface at that elevation. Cultural features can also be helpful. Roads often stop at wetted areas and buildings are usually (but not always) built above the elevation of the water feature's most frequent floods. Similarly, railroads are usually built up high enough to stay dry. This information is generally discernible on USGS 7.5 minute quadrangles. Other OFW Categories : All other categories are taken from the Lands managed for Conservation created and compiled by GEOPLAN or have been created by us using descriptions from the Outstanding Florida Waters documentation. Those boundaries created internally were scanned from published materials, registered and rectified with 1:24,000 USGS Public Land Survey section corners. Data was then extracted from USGS 1:24,000 hydrology layer and attributed. For boundaries not completely represented by USGS 1:24,000 hydrology layer, arcs were digitized directly from the scanned material to complete the boundary. State Parks and Recreational Areas Category The COGO method has several advantages and disadvantages for use in producing a database for the OFWs. It uses primary source material - the legal description on the deed. Data created using this method should have validity within the legal system because it is from a source familiar to the courts. Other agencies are using the COGO system so it is a familiar process and product. COGO methodology is appropriate in that it weds the new system for describing land ownership to the existing system. Additionally, each parcel boundary will be maintained in a digital form and can be extracted from the official boundary as a parcel's status changes. This data layer will also be maintained and updated by the stewards of all the state park boundaries data, so as the parcel boundaries change, the OFW boundaries will automatically be updated. The downside is that COGO (or the survey data it automates) is labor intensive and requires extensive training and expertise to use. Each legal description references source materials that may only be available locally or from the county appraiser's office, at a cost of travel and materials. Each park boundary may have numerous parcels transferred to the state at different times and some parcel boundaries overlap. Legal descriptions were transferred to digital form using the COGO modules in ESRI's ARC/INFO software on a UNIX platform DEC Alpha 3000 workstation and Softdesk's ADDCAD Civil/Survey software on 486/90 DELL personal computers configured with 1 gigabyte storage memory, 32 megabytes of RAM, 17" VGA monitors and running DOS. Both platforms are connected to HP-650C plotters. See Standard COGO Procedures developed by the Division of Parks and Recreation.</procdesc>
+                <procdate>19960101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection/Water Resource Management</cntorg>
+                            <cntper>Janet Klemm; Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III; Env. Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Talahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                        </cntaddr>
+                        <cntvoice>850/245-8427; 850/245-8541</cntvoice>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>OFW Edits Added Bear Creek State Recreation Area (Other OFW). Rule_ID 9c5 Added Passage Key (Special OFW). Rule_ID 9b22 Edited Myakka River State Park (Other OFW). Rule_ID 9c57 Edited Big Bend Seagrasses Acquatic Preserve (Acquatic Preserve) by removing the Keaton Beach exceptions. May need more editing. Made the following edits as well: 9)(h) Aquatic Preserves 18. Indian River Malabar to Vero Beach (additions) - except those portions of Sebastian Creek and Turkey Creek upstream of U.S. Highway 1. 42. Wekiva River Addition, except that portion of the St. Johns River between Interstate Highway 4 and the Wekiva River confluence. December 19, 2003 Rule ID 9i38 (GIS_ID 530): Weekiwachee Riverine System. Effective as of December 11, 2003. Added on 20031219 by RH for Janet Klemm. {Special OFW.} Rule ID 9i17 (GIS_ID 540): Lake Disston. Added on 20031219 by RH. {Special OFW.} Rule ID 9i14c (GIS_ID 500): Hillsborough River. Two wetland areas removed at request of Janet Klemm on 20031219. RH. Wetlands were removed from T26S, R19E, section 26 and 27 respectively. {Special OFW.} January 29, 2004 Rule ID 9b8 (GIS_ID 12): Egmont Key NWR. Changed "Name" field from Egmont Key (designation undetermined) to Egmont Key NWR for Janet Klemm. RH 20040129. {Other OFW} Rule ID 9b22 (GIS_ID 520): Passage Key. Changed "Type" from "Special" OFW to "Other" OFW for Janet. RH 20040129. {Other OFW}. April 8, 2004 Rule ID 9f43 (GIS_ID 550): Placid Lakes Highlands. Acquired boundary from FWCC Management Areas shapefile. Added 20040408. by RH for Janet Klemm. (Other OFW). April 28, 2004 Rule ID 9i40 (GIS_ID 560): Wiggins Pass Estuarine Area and the Cocohatchee River System. Added on 20040428 by RH as special request by Kim Jackson. She needed it for Janet Klemm's "OFW Economics" pilot project. Re-edited on April 29, 2004 using a map from Janet Klemm and 24K DRG's USGS Quad Maps. May 4, 2004 Rule ID 9f60 (GIS_ID 570): Three Lakes/Prairie Lakes. Added on 20040504 by RH. To create this shape, I used major river boundaries, state lands boundaries, PLS Boundaries, Cad Files from TLSDSL6 and hand digitizing. Rule ID 9f49 (GIS_ID 580): Saddle Blanket Lakes Scrub. Added on 20040504 by RH. Used State Lands and PLS Boundaries to make this. Only State Owned Property is included for the time being. March 30, 2005 Rule ID 9e58 (GIS_ID 590): Stoney-Lane (10-4-90). Added on 20050330 by RH. (Other OFW). April 19, 2005. Rule_ID 9e9 (GIS_ID 600): Nassau Valley State Reserve (12-1-82). Added on 20050419 by RH. Not all areas within boundary are OFW. Hand created by using ArcView 3.2 while using 1987 OFW Atlas page 182 and 24k DRG as guide. Confidence Level: Low. Strictly meant for representation. Not for legal purposes. (Other OFW). May 11, 2005. Rule_ID 9f31 (GIS_ID 610): Indian River North Beach (5-14-86). Added on 20050511 by RH. Indian River North Beach Complex and County Property in northern portion. Number 11 Corp and Sirk Tract in southern portion. Based on State Lands Records from DataMiner. Confidence level Medium. OFW Atlas 1987, page 214. (Other OFW). May 13, 2005. Rule_ID 9f41 (GIS_ID 620): North Beach (5-14-86). Also known as North Beach Additions. Added on 20050513 by RH. Edits based on State Lands Records from DataMiner, 24K DRG, 1999 DOQQ and OFW Atlas 1987, page 219. Confidence level Medium to Low. Boundaries directly on either side of Sheridan St. were hand created. (Other OFW). May 25, 2005. Rule_ID 9h19 (GIS_ID 231): Indian River - Vero Beach to Ft. Pierce Aquatic Preserve. Edited on 20050525 by RH at request of Janet Klemm. Added the portion of the Harbor Beach Channel waterward (eastward) of preconstruction mean high water line. Confidence Level Medium. Corresponded with Earl Pearson from the Office of Coastal and Aquatic Managed Areas. He edits the Aquatic Preserves layer. We need to have both OFW and Aquatic Preserves boundaries coincide so I sent him a jpeg and the shapefile that I edited. He said that my edits look the same as he planned to do, but that it will take some time to get his edit approved. Janet already approved mine, so I went ahead and updated the boundary and asked Earl to let me know when he gets his edits approved. (Aquatic Preserve OFW). June 20, 2005. Rule_ID 9i13 (GIS_ID 630): Florida Keys. Added on 20050620 by RH. Hand digitized. Used 24k DRG for Dade-Monroe boundary reference. Used Everglades National Park Other OFW as boundary reference. Also used John Pennekamp Other OFW and State Land Records parcels to create boundary. Confidence Level: Low. Stock Island and artificial water bodies were not removed at this time. (Special OFW). June 21, 2005. Rule_ID 9i29 (GIS_ID 282): Sarasota Bay Estuarine System. Edited on 20050621 by RH at request of Janet Klemm. Used 24K DRG as guide to include Blind Pass and the water just below Blind Pass and above Midnight Pass. (Special OFW). June 21, 2005. OFW was submitted to BIS/GIS for SDE Layer update. Added to SDE Layer on 20050624. Inserted updated dataset aquired from Ron Hughes (WRM) and inserted in ArcSDE. This updated dataset has 3747 records.</procdesc>
+                <procdate>20050621</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset aquired from WRM and inserted in ArcSDE. This updated dataset has 3754 records. Five sliver parcels were removed which reduced the record count.</procdesc>
+                <procdate>20050624</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>November 29, 2005. Rule_ID 9b7 (GIS_ID 640): Added Crystal River National Wildlife Refuge. 17 individual records were dissolved into one thereby reducing record count. (Other OFW). November 29, 2005. Rule_ID 9b7 (GIS_ID 640): Created Crystal River National Wildlife Refuge. Edits based on State Lands layer from FDEP DataMiner library. (Other OFW). November 29, 2005. Rule_ID 9b12 (GIS_ID 650): Created Island Bay National Wildlife Refuge. Edits based on Florida Managed Areas layer from FDEP DataMiner library. (Other OFW). November 30, 2005. Rule_ID 9b17 (GIS_ID 660): Created Loxahatchee National Wildlife Refuge. (Other OFW). December 1, 2005. Rule_ID 9e11 (GIS_ID 670): Created Prairie Lakes State Preserve. (Other OFW). December 13, 2005. Rule_ID 9e19 (GIS_ID 680): Created Weedon Island State Preserve. Edits based on Florida Managed Areas and State Lands FDEP layer. (Other OFW). February 22, 2006. Rule_ID 9h4 (GIS_ID 216): Big Bend Seagrasses Acquatic Preserve. Edited on 20060222 byRH. Corrected Southeast corner in Levy County near mouth of Withlachoochee River. Acquatic Preserve. March 24, 2006. Rule_ID 9f16 (GIS_ID 690): Created Deering Hammock/Estate. November 29, 2005. Rule_ID 9b12 (GIS_ID 650): Added Island Bay National Wildlife Refuge. (Other OFW). Inserted updated dataset aquired from Ron Hughes (WRM) and inserted in ArcSDE. This updated dataset has 3755 records.</procdesc>
+                <procdate>20051202</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>July 10, 2006. Rule_ID 9h31 (GIS_ID 243): Data edited on Pine Island Sound Acquatic Preserve. Josslyn Island added on 20060710 at request of Janet Klemm. Submitted on July 10, 2006 for DataMiner update. Inserted updated dataset aquired from Ron Hughes (WRM) and inserted in ArcSDE. This updated dataset has 3756 records. Josslyn Island polygon was to the Pine Island Sound Acquatic Preserve.</procdesc>
+                <procdate>20060710</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>August 31, 2006. Rule_ID 9e6 (GIS_ID 128): Fakahatchee Strand State Preserve. Edited on 20063108 by RH. Edits based on 1987 OFW Atlas, existing OFWs and State Lands layer (like CUL040029390) from FDEP DataMiner library. Confidence level Medium. (Other OFW). October 3, 2006. Rule_ID 9f66 (GIS_ID 700): West Lake. Added on 20063108 by RH. Edits based on 1987 OFW Atlas and State Lands layer from FDEP DataMiner library. Confidence level Medium. (Other OFW).</procdesc>
+                <procdate>20060831</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>December 4, 2006 Rule ID 9i8 (GIS_ID 263): Edited Clermont Chain of Lakes. (Special OFW). December 8, 2006 Rule ID 9i4 (GIS_ID 259): Edited Butler Chain of Lakes. (Special OFW). December 15, 2006 Rule ID 9c67 (GIS_ID 710): Created Rose Sink (adddition to Ichetucknee Springs State Park) (1-9-06). (Other OFW). Five sliver parcels were removed which reduced the record count.</procdesc>
+                <procdate>20061204</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>February 28, 2007: Edited Myakka Florida Wild and Scenic River Segment (5-14-86). May 22, 2007: Multiple edits to Lower Econlockhatchee. June 11, 2007: Multiple edits to Savannas State Reserve. June 13, 2007: Multiple edits to Lake Woodruff NWR. June 15, 2007: Created Hillsborough River State Park. June 21, 2007: Created ITT Hammock Snapper Creek.</procdesc>
+                <procdate>20070228</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>September 7, 2007: Edited Gulf Islands National Seashore. Boudaries were completely redone. September 14, 2007: Created Carlton Half-Moon Ranch OFW. Submitted for SDE Update.</procdesc>
+                <procdate>20071024</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset aquired from WRM and inserted in ArcSDE. Metadata updated</procdesc>
+                <procdate>20071029</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>December 14, 2007: Edits to Indian River - Malabar to Vero Beach Aquatic Preserve in the Mullet Creek and Sebastian River areas. December 19, 2007: Major edits to Mosquito Lagoon Aquatic Preserve were finally completed. Submitted for SDE update.</procdesc>
+                <procdate>20071221</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset aquired from WRM and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20080104</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>April 1, 2008: Created Bower Tract. June 25, 2008: Created Stark Tract OFW. June 25, 2008: Created Upper Black Creek OFW at Janet Klemm's request. June 27, 2008: Created a new boundary for Canaveral National Seashore OFW. July 1, 2008: Edited Spruce Creek Special OFW. Added tributary (see OFW Rule ID 9i33a). Submitted for SDE layer update.</procdesc>
+                <procdate>20080701</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset acquired from WRM and inserted in ArcSDE. Metadata updated</procdesc>
+                <procdate>20080707</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>October 15, 2008: Edited Boca Ciega Bay (GIS_ID 219). November 19, 2008: Newly created Caravelle Ranch OFW boundary (GIS_ID 790) approved by Janet Klemm.</procdesc>
+                <procdate>20081119</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset acquired from WRM and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20090126</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>January 5, 2010: Created Escambia Bay Bluffs at Janet Klemm's request.</procdesc>
+                <procdate>20100105</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>December 16, 2010: Delnor-Wiggins Pass State Recreation Area boundary revised by RH at request of Janet Klemm. State Land Records parcels used as reference. December 29, 2010: Mashes Sands boundary added. Used georeferenced 1987 OFW Atlas (page 218) as guide.</procdesc>
+                <procdate>20101229</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>January 5, 2011: Updated Apalachicola National Estuarine Research Reserve. January 7, 2011: Created Gateway OFW boundary. Created using scanned georeferenced image, existing OFW and 24K FL Counties FDEP SDE Layer.</procdesc>
+                <procdate>20110107</procdate>
+                <proctime>121128</proctime>
+            </procstep>
+            <procstep>
+                <procdesc>February 14, 2011: Edited by RH at request of Janet Klemm. Added a portion of Warm Spring Hammock within Sections 31 and 32 TS19SR32E using 55 foot contour line in 24K DRG from FDEP SDE layer. Removed portion east of I-75 within sections 2, 4 and 11 T19SR22E.</procdesc>
+                <procdate>20110214</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset acquired from WRM in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20110602</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>June 28, 2011: Removed three canal-type water bodies that were attached to the east of Indian River in Brevard County at Hog Point Creek and to the west of Seiler Road within TWN 29S RNG 38E SEC 3 at Janet Klemm's request.</procdesc>
+                <procdate>20110628</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>August 9, 2011: Spring Hammock created by RH for Janet Klemm. Approved by JK on 20110809. Created from State Land Records parcels from FDEP Data Library. There may be more areas that are OFW but these were the only areas that could be confirmed by querying for SPRING HAMMOCK DNR 238. October 13, 2011: Emerson Point created by RH at request of Janet Klemm. Approved by JK on 20111013. Created from State Land Records parcels from FDEP Data Library (used DMID 327020 as template after checking State Lands Acquisitions for verification). October 17, 2011: Econfina River State Park: This previously misplaced GIS boundary was placed in the correct position. Used spatial boundary from Florida State Park Boundaries SDE layer.</procdesc>
+                <procdate>20111017</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>January - February 2012: Updated OFW Aquatic Preserve boundaries using the recently updated Aquatic Preserves spatial data from CAMA with the exception of four boundaries that are still under review: Big Bend, Indian River - Vero Beach, Rookery Bay and Wekiva River. February 10, 2012: Pond Creek removed (T1N R28W Sec10) from Blackwater River (Special OFW) by RH at request of Janet Klemm. February 10, 2012: Removed a portion from Clermont Chain of Lakes (Special OFW) in T22S R25E Sec14 south of the north side of CR 564A at request of Janet Klemm.</procdesc>
+                <procdate>20120210</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated dataset acquired from WRM in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20120221</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>March 6, 2012: Wekiva River AP updated by RH using boundary from updated Aquatic Preserves FDEP SDE layer obtained from Earl Pearson from CAMA. March 13, 2012: Rookery Bay AP updated by RH using the boundary from updated Aquatic Preserves FDEP SDE layer obtained from Earl Pearson from CAMA. May 19, 2012: Big Bend Seagrasses AP updated by RH using the boundary from updated Aquatic Preserves FDEP SDE layer from CAMA. OFW exceptions completed. The exemption in the SE corner of Levy County near mouth of Withlachoochee River that was added on 20060222 and revised on 20120321 using SDE 2011 aerials. June 13, 2012: Edits : Created North and South Additions boundary for Indian River Malabar to Vero Beach AP (and Additions). Updated by RH using boundary from updated Aquatic Preserves FDEP SDE layer obtained from Earl Pearson from CAMA. June 20, 2012: Removed Brushy Creek and the portion of Perdidio River OFW lying north of the 80 foot contour line (from DEP.LAND_SURFACE_ELEVATION_24 layer) which runs along the south border of South Pineville Road at request of Janet Klemm. June 21, 2012: Rotenberger parcel added by RH at request of Janet Klemm. State Lands parcel ADF77000482 (DMID 11670) was used as a spatial reference. July 30, 2012: Edited Sarasota Bay Estuarine System in T38S, R18E, Sec35 to better match shorline. Edits by RH at request of Janet Klemm. August 13, 2012: Clearwater Causeway Act removed from Pinellas County Aquatic Preserve by RH at Janet Klemm's request. RH georeferenced an image obtained from Rod Maddox at State Lands and used it as a reference for removal of the specified area. 457 more records deleted.</procdesc>
+                <procdate>20120306</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated data from DEAR in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20120906</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>February 5, 2013: Fakahatchee Strand State Preserve {TWN52SR29E Sections 12 and 13}- East 50 feet of ROW (Janes Scenic Drive) was removed as it is not part of OFW. Streetmap shapefile was used as centerline and offset by 50 feet to the east to use as editing guide for east ROW boundary. This parcel was updated at the request of Janet Klemm.</procdesc>
+                <procdate>20130205</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated data from DEAR in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20130212</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Modified the boundaries of Crystal River (Special OFW) in Citrus County, FL at Janet Klemm's request by RH. Data layer submitted for SDE update on 20130317</procdesc>
+                <procdate>20130327</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Inserted updated data obtained from DEAR in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20130328</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated field 'NOTES' in the attribute table for Crystal River "Other" OFW at Janet Klemm's request: "Section 24 of T18S, R16E in western Citrus County had no purchases related to the Crystal River State Preserve until after 8-8-94. Confirmed on 20130524 by Janet Klemm." No records were added and no geometries modified with this update.</procdesc>
+                <procdate>20130528</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Edited Lake Rousseau State Recreation Area on 20130904 at the request of Janet Klemm. Used CUL030040320 parcel from State Lands SDE Layer to create this boundary. RH</procdesc>
+                <procdate>20130904</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Wekiva River Buffers - Added on 20131113 by RH using Cadastral 2009, 1994 aerials, PLS 24K, FL Conservation Lands, State Lands, OFW and georeferenced image of CARL map as a guide. Confidence is medium.</procdesc>
+                <procdate>20131113</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Homosassa River System - Edited on 20131205 by RH at the request of Janet Klemm. Extended boundary to the edge of WBID 1345F Run 47 in Sections 6 of TWN20S17E and Section 2 of TWN20SR16E.</procdesc>
+                <procdate>20131205</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated the layer in SDE/DataMiner. Metadata updated.</procdesc>
+                <procdate>20131223</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Milton to Whiting Field was added on 20140307 by Ronald Hughes with approval from Janet Klemm. Used State Land Records shapefile DM_ID 312970 Lease Number 004204 as spatial reference source and page 19 sections A and B of the Blackwater Heritage State Trail Management Plan from Division of Recreation and Parks. Andrews Tract was added on 20140307 by RH with approval from J Klemm. Used Andrews Wildlife Management Area boundary from Florida Conservation Lands (FNAI Managed Areas) FDEP SDE Layer Library as spatial data source. Ft. San Luis was added on 20140307 by RH with approval from J Klemm. Used State Lands Records FDEP SDE Layer shapefiles ADF74501364 (DM_ID 4052) and ADF45000078 (DM_ID 12218) as boundary source. Submitted for SDE update on 20140310.</procdesc>
+                <procdate>20140310</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated the layer in SDE/DataMiner. Metadata updated.</procdesc>
+                <procdate>20140311</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Port Bougainville - Added on 20150306. Port Bougainville has been incorporated into the Dagney Johnson Key Largo Hammock Botanical State Park and the Crocodile Lake National Wildlife Refuge. Josslyn Island - Added on 20150309 using State Lands boundary. Green Turtle Beach - Added on 20150309 using State Lands boundary. This OFW was part of an acquisition that is now within John Brooks Park.</procdesc>
+                <procdate>20150309</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, Division of Water Resouce Management, Watershed Monitoring Section/Data Services Section</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20150414</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Volusia Water Recharge Area - Added on 20150504 by RH using State Lands DMID 3465, DMID 3468, DMID 3470, DMID 3472 through DMID 3475 and DMID 27270 as the boundary template. Withlacoochee Tracts - Added on 20150512 by RH using State Lands DMID 4000 and DMID 4001 to create the boundary.</procdesc>
+                <procdate>20150512</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, Division of Water Resouce Management, Watershed Monitoring Section/Data Services Section</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20150513</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Rookery Bay National Estuarine Research Reserve - Boundary was added on 20160205 by RH using a FL Conservation Lands shapefile obtained from Janet Klemm. Key Largo National Marine Sanctuary - Boundary was added on 20160205 by RH using a shapefile obtained from Janet Klemm. Submitted for SDE update.</procdesc>
+                <procdate>20160210</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, Division of Water Resouce Management, Watershed Monitoring Section/Data Services Section</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20160217</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Fort Clinch State Park - Added on 20160325 by RH at request of Janet Klemm using State Lands DMID 112, DMID 145, DMID 4463, DMID 4464 and DMID 367604 as the boundary template.</procdesc>
+                <procdate>20160325</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, Division of Water Resouce Management, Watershed Monitoring Section/Data Services Section</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20160328</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>St. Marks River - Edits to the northern end of the St. Marks River in Leon County on 20161020 by RH at the request of Janet Klemm.</procdesc>
+                <procdate>20161020</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, Division of Water Resouce Management, Watershed Monitoring Section/Data Services Section</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20161024</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited Rainbow River OFW by RH at the request of Janet Klemm.</procdesc>
+                <procdate>20170222</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, DEAR</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20170302</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited a portion of the Chipola River Special OFW boundary about a mile north of Wewahitchka so that it no longer extended beyond the east side of state road 71. Requested by Janet Klemm.</procdesc>
+                <procdate>20170419</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, DEAR</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated the attribute information for the Crystal River OFW at the request of Janet Klemm.</procdesc>
+                <procdate>20170515</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20170518</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated attribute information for Beker Tracts at request of Janet Klemm.</procdesc>
+                <procdate>20170831</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection, DEAR</cntorg>
+                            <cntper>Ron Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road, MS 3575</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20170914</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Removed Safety Harbor canal from Florida Keys OFW using Florida Counties with Shoreline (Areas) layer (FL_SHORELINE_AREAS) FDEP SDE layer as a guide. Edit was requested by Janet Klemm.</procdesc>
+                <procdate>20180208</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20180212</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited Aucilla River OFW.  Removed a large wetland area connected to the Aucilla River floodplain in TWN 2N R 6E Sec 26. Removed Gain Creek starting from TWN 2N R 6E Sec 34 on out. Requested by Janet Klemm after her conversations with Eric Shaw and SRWMD.</procdesc>
+                <procdate>20180228</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited Estero Bay Tributaries using information and data provided by Janet Klemm.  Area has been modified to include a portion of Hendry Creek that was previously missing while simultaneously removing some areas that should not be included.</procdesc>
+                <procdate>20180305</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP), DEAR</cntorg>
+                            <cntper>Janet Klemm</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8427</cntvoice>
+                        <cntemail>janet.klemm@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20180319</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited Lemon Bay Estuarine System boundary near Cape Haze.</procdesc>
+                <procdate>20180320</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP), DEAR</cntorg>
+                            <cntper>Janet Klemm</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8427</cntvoice>
+                        <cntemail>janet.klemm@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library</procdesc>
+                <procdate>20180327</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Artificial waters near 50 Tarpon Way, Placida, FL were removed on 20180730 along with minor modifications by RH for Janet Klemm.</procdesc>
+                <procdate>20180730</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                        <cntinst>For GIS related inquiries please contact Ronald Hughes.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated by Ronald Hughes using spatial data provided by Janet Klemm which she obtained from the U.S. Department of Interior.  Janet extracted the Crocodile River NWR from the Department of Interior data layer and used the data to identify four parcels that were acquired post 1994.  She provided a spatial layer with those four parcels removed.</procdesc>
+                <procdate>20180806</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+                        <cntinst>For GIS related inquiries please contact Ronald Hughes.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library</procdesc>
+                <procdate>20180807</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Placed missing Loxahatchee National Wild and Scenic River Segment OFW boundary into Outstanding Florida Waters layer and sumbitted for SDE update.</procdesc>
+                <procdate>20190409</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <city>2600 Blair Stone Rd</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20190410</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated the NOTES attribute to indicate that McKay Creek at Indian Rocks Road crossing is a  Sovereign Submerged Land (SSL) and OFW as had been previously requested by Janet Klemm.</procdesc>
+                <procdate>20190617</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>Ronald.Hughes@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>NOTES fields were updated at Janet Klemm's request for two OFW areas:
+ 
+a) John Pennekamp Coral Reef State Park – Division of State Lands (DSL) has verified that the embayment near 14 Rainbow Dr Key Largo, FL 33037 is Sovereign Submerged Land (SSL) and within the Pennekamp St. Park OFW.
+
+b) Myakka River -  A number of the waters at or near the juncture of the canals and the Myakka River are considered Sovereign Submerged Land (SSL).  Verification recommended.</procdesc>
+                <procdate>20190807</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <city>2600 Blair Stone Rd</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20190808</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated a section of the Apalachicola NERR OFW extent on St. George Island in the vicinity of Shell Point Cove between Lat/Lon 29.6838 N; -84.8014 W Decimal Degrees and Lat/Lon 29.6759 N; -84.8336 W Decimal Degrees.  Spatial data source: Apalachicola NERR boundary from National Estuarine Research Reserve (NERR) Boundaries layer obtained from FDEP Office of Resilience and Coastal Protection.</procdesc>
+                <procdate>20191205</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <city>2600 Blair Stone Rd</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20191206</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Extended the northern portion of Lochloosa Lake OFW (Special) northward to include the portion of Lochloosa Creek up to County Road 20A, (which is known as Lake Ave, or County Road 2082).  This was done at Janet Klemm's request.</procdesc>
+                <procdate>20200403</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+                            <cntper>Ronald Hughes</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <city>2600 Blair Stone Rd</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8541</cntvoice>
+                        <cntemail>ronald.hughes@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+                <procdate>20200406</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>1041</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DEP.OUTSTANDING_FLORIDA_WATERS</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>TYPE</attrlabl>
+                <attrdef>OFW Classification: "Aquatic Preserve", "Other" or "Special". There is one exception (within Lower Econlockhatchee) called "Other Clip".It is not being displayed via layer file at Janet Klemm's request because it is currently a conservation easement on privately owned land and not part of the OFW.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>The name of the OFW project.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ALT_NAME</attrlabl>
+                <attrdef>Alternative name of the OFW project</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>RULE_ID</attrlabl>
+                <attrdef>OFW Identification based upon the Florida Administrative Code (FAC) Rule 62-302.700 for Outstanding Florida Waters.</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NOTES</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>ID assigned by GIS staff for newer edits.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Polygon perimeter reported by SDE in meters.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+                <attrdef>Polygon area reported by SDE in square meters.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20200406</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd</address>
+                    <address>MS 6520</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

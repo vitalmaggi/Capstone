@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20191008</pubdate>
+                <title>Florida Regional Water Supply Planning Regions</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://publicfiles.dep.state.fl.us/otis/gis/data/water_supply_plan_regions.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Florida Water Resources Act, Chapter 373, F.S., establishes that all water in Florida, on the surface or in the ground, is a public resource managed by the department and the five water management districts. Water resource managers are tasked with the responsibility of balancing the needs of Florida's growing population with the needs of the natural systems by creating dynamic plans that appropriately allocate the state's limited water resources. Every five years, each district creates a Regional Water Supply Plan. Regional Water Supply Plans include a water supply and water resource development component; a funding strategy for water resource development projects; consideration of how the water supply development project options serve the public interest or save costs; technical data to support the plan; a list of water bodies for which minimum flows and levels have been established or will be established; recovery or prevention strategies for the water bodies not meeting their minimum flows and/or levels; and a list of water reservations. Without these planning efforts, the districts project that existing sources of water will not adequately meet the reasonable-beneficial needs for the next 20 years. For information on this program, see the Office of Water Policy's site at: https://floridadep.gov/water-policy/water-policy/content/water-supply.This data set presents the water supply planning regions of the five water management districts (WMDs) as of 2019. The location information was provided by the WMDs. Additional information can be found at the website for each WMD, as presented below:NWFWMD: https://www.nwfwater.com/Water-Resources/Water-Supply-PlanningSRWMD: http://www.srwmd.state.fl.us/495/Water-SupplySJRWMD: https://www.sjrwmd.com/water-supply/planning/SWFMWD: https://www.swfwmd.state.fl.us/resources/plans-reports/rwspSFWMD: https://www.sfwmd.gov/our-work/water-supply</abstract>
+            <purpose>This dataset was created for resource management and cartographic purposes to represent the boundaries that represent the Regional Water Supply Planning Regions for Florida's five water management districts.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20191008</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date data published in the GIS library</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.639228</westbc>
+                <eastbc>-79.872243</eastbc>
+                <northbc>31.042852</northbc>
+                <southbc>24.480328</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>WMD</themekey>
+                <themekey>Administrative</themekey>
+                <themekey>Municipal and Political Boundaries</themekey>
+                <themekey>Water Management Districts</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The features depicted are intended for informational use only and should not be considered authoritative for navigation, engineering, legal, or other site-specific purpose. FDEP does not assume any legal liability or responsibility arising from the use of this product in a manner not intended by the author.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection, Office of Water Policy</cntorg>
+                    <cntper>Pamela Flores</cntper>
+                </cntorgp>
+                <cntpos>Operations Review Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>3900 Commonwealth Blvd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-3194</cntvoice>
+                <cntemail>Pamela.Flores@FloridaDEP.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Northwest Florida Water Management District, Suwannee River Water Management District, St. Johns Water Management District, Southwest Florida Water Management District, South Florida Water Management District, Florida Department of Environmental Protection.</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Data for a new layer obtained from Office of Water Policy and added the same in the GIS library.</procdesc>
+                <procdate>20191008</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>19</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DEP.WATER_SUPPLY_PLAN_REGIONS</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>COUNTIES</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RWSP</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RWSP_LINK</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>REGION</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LABEL</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Status</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20191008</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>MS 6520</address>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

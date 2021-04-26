@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20101116</pubdate>
+                <title>Public Beach Access Sites</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://publicfiles.dep.state.fl.us/otis/gis/data/BEACH_ACCESS_SITES.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Public Beach Access Sites Along the Panhandle,Southwest Coast, and the East Coast of Florida. Panhandle region includes Escambia County to Citrus County. Southwest Florida region includes Hernando County to Monroe County. East Coast region includes Nassau County to Miami Dade County.</abstract>
+            <purpose>Florida's beaches are important to many people, from commercial fishermen to wildlife watchers to the millions of vacationers that visit the state each year. Florida's sandy beaches are one of its major attractions for residents and visitors alike. While there are hundreds of miles of sandy beaches, many public access points are under-utilized because no one knows they exist. Locating beach access points can be quite a challenge for those who want to spend the day at the beach. In response to this, the Florida Coastal Management Program has developed this data so visitors can match their interests and needs with beach accesses along the Gulf of Mexico.</purpose>
+            <supplinf>This data set was developed by the Florida Coastal Management Program and by Dr. Stephen Holland at the University of Florida. Public beach access site data for the SW Gulf coastal counties was collected from the Fall of 2009 to the Summer of 2011. Data for the Florida east coast beach access points will be collected via GPS from June, 2011 to October, 2011, and updated/integrated into the comprehensive shapefile.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20210330</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date data last updated in the GIS library</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.490621</westbc>
+                <eastbc>-79.885239</eastbc>
+                <northbc>30.724934</northbc>
+                <southbc>24.507902</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Tourism and Cultural</themekey>
+                <themekey>Recreation</themekey>
+                <themekey>public beach access sites</themekey>
+                <themekey>RCP</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Hernando County to Monroe County</placekey>
+                <placekey>Southwest Florida</placekey>
+                <placekey>Florida</placekey>
+                <placekey>Escambia County to Citrus County</placekey>
+                <placekey>Panhandle</placekey>
+                <placekey>East Coast</placekey>
+                <placekey>Nassau to Brevard County</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Must read and fully comprehend the metadata prior to data use. The files and attribute data are intended to used as a relative location reference only. Data is not always based on a site specific survey. Acknowledgement of the Originator when using the data set as a source.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection, Office of Resilience and Coastal Protection</cntorg>
+                    <cntper>Ann Lazar</cntper>
+                </cntorgp>
+                <cntpos>Environmental Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>3900 Commonwealth Blvd., MS 240</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-3000</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-2168</cntvoice>
+                <cntemail>Ann.Lazar@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>FDEP, Florida Coastal Management Program</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Maintainence and updates for Okaloosa county. 5 more access points added in Okaloosa county</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Removed East Inlet Drive Access Point in Palm Beach (no longer public). Corrected Sunny Isles Beach 186th St. access was incorrectly labeled as Broward County corrected to Miami-Dade. Updated Pompano Beach fishing pier parking rate from 1.00/hr to 1.25/hr.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained data form Coastal Management Program and inseretd in ArcSDE. Data published in DataCatalog,DataMiner and MapDirect.</procdesc>
+                <procdate>20101116</procdate>
+                <proctime>105354</proctime>
+            </procstep>
+            <procstep>
+                <procdesc>Data was edited for accuracy. A new field SITE_ID was added with this update.</procdesc>
+                <procdate>20110602</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from CMA and inserted in ArcSDE.</procdesc>
+                <procdate>20110617</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>East Coast beach access site data obtained via GPS device and entered into the geodatabase.</procdesc>
+                <procdate>20110725</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from CMA and inserted in ArcSDE. Metadata updated</procdesc>
+                <procdate>20110728</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Previously recorded data was checked for accuracy and edited accordingly utilizing the 2010 cadastral layer and county information</procdesc>
+                <procdate>20110915</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from CMA and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20110918</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>East coast data collection was completed in October, 2011, entered into the geodatabase and updated in the layer. This process step marks the completion of the entire data for all of Florida's coastline.</procdesc>
+                <procdate>20111031</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from CMA and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20111101</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Data was updated for accuracy after a complete QA review.</procdesc>
+                <procdate>20111130</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from CMA and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20111201</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from CMA and inserted in ArcSDE. Metadata updated.</procdesc>
+                <procdate>20120312</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated from shapefile submitted by Brandon Adams, Florida Coastal Management Program. The following updates were made: - Assigned names to unnamed sites. - Provided location information for access sites. - Calculated geometry for all points. Metadata imported.</procdesc>
+                <procdate>20120615</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Removed East Inlet Drive Access Point in Palm Beach(no longer public). Corrected Sunny Isles Beach 186th st. access was incorectly labled as Broward county corrected to Miami-Dade. Updated Pompano Beach fishing pier parking rate from 1.00/hr to 1.25/hr.</procdesc>
+                <procdate>20131216</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data in SDE/DataMiner. Metadata updated</procdesc>
+                <procdate>20131223</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from Florida Coastal Office and updated the same in SDE/DataMiner. Metadata updated.</procdesc>
+                <procdate>20140519</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Reviewed Citrus, Hernando, Pasco, Hillsborough, Manatee, Sarasota, Charlotte, Lee, Martin, Indian River and St. Lucie counties and updated amenities and access sites if there were any significant changes.</procdesc>
+                <procdate>20141112</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP - Florida Coastal Office</cntorg>
+                            <cntper>Chris Robertson</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>3900 Commonwealth Blvd. MS 240</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-2183</cntvoice>
+                        <cntfax>850-245-2190</cntfax>
+                        <cntemail>Christopher.M.Robertson@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from Florida Coastal Office and updated the same in FDEP's GIS library. Metadata updated.</procdesc>
+                <procdate>20141113</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>MS 6520</address>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added Historic Virginia Key Beach Park located on Virginia Key in Miami-Dade County.</procdesc>
+                <procdate>20160906</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP - Florida Coastal Office</cntorg>
+                            <cntper>Mitra Sartipi</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>3900 Commonwealth Blvd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-2183</cntvoice>
+                        <cntemail>Mitra.Sartipi@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data and updated the same in the GIS library</procdesc>
+                <procdate>20190220</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New field ACCESS_STATUS added to indicate accessibility to the beach including parking availability. Metadata updated. Symbology updated.</procdesc>
+                <procdate>20190816</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP</cntorg>
+                            <cntper>Janis Morrow</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Administrator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahasee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8543</cntvoice>
+                        <cntemail>Janis.Morrow@floridadep.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data and updated the same in the GIS library.</procdesc>
+                <procdate>20190820</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data and updated the same in the GIS library. COUNTY_NUM field removed from the layer as per data provider - WRM GIS Program Support.</procdesc>
+                <procdate>20200505</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Removed inactive site in Palm Beach county. In April 2020 the layer was transformed from HARN to NAD83_2011</procdesc>
+                <procdate>20200701</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data and updated the same in the GIS library.</procdesc>
+                <procdate>20200724</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Removed following points by request: FL1830, FL549, FL578, FL583</procdesc>
+                <procdate>20200930</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained data from WRM-GIS Program Support and updated the same in the GIS library.</procdesc>
+                <procdate>20201001</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>March 2021 Update - corrected some attributes of several features</procdesc>
+                <procdate>20210325</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained data from WRM-GIS Program Support and updated the same in the GIS library.</procdesc>
+                <procdate>20210330</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <address>MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>2195</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DEP.BEACH_ACCESS_SITES</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BEACH_OR_CITY_NAME</attrlabl>
+                <attrdef>Beach or City</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ACCESS_NAME</attrlabl>
+                <attrdef>Name of access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>X_LONGITUDE</attrlabl>
+                <attrdef>Longitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>County</attrlabl>
+                <attrdef>County</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LOCATION_ADDRESS</attrlabl>
+                <attrdef>Address or description of location</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FEET_OF_FRONTAGE</attrlabl>
+                <attrdef>Frontage of access point. A value of -99 indicates that the actual value is unknown.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PANHANDLE_GULF_ATLANTIC</attrlabl>
+                <attrdef>Location of access point within 3 data regions (Panhandle, Gulf or Atlantic)</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Y_latitude</attrlabl>
+                <attrdef>latitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ATLANTIC_COAST</attrlabl>
+                <attrdef>Access point located on Atlantic coast</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ACCESS_SIGN</attrlabl>
+                <attrdef>Existing access sign</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Gulf_Coast</attrlabl>
+                <attrdef>Access point located on Gulf coast</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ENTRANCE_FEE</attrlabl>
+                <attrdef>Entrance Fee requirement</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Yes</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ENTRANCE_FEE_AMOUNT</attrlabl>
+                <attrdef>Entrance fee amount</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PARKING_FEE</attrlabl>
+                <attrdef>Parking fee requirement</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PARKING_FEE_AMOUNT</attrlabl>
+                <attrdef>Parking fee amount</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>REGULAR_PARKING</attrlabl>
+                <attrdef>Parking available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NUMBER_OF_SPACES</attrlabl>
+                <attrdef>Number of parking spaces</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADA_PARKING</attrlabl>
+                <attrdef>ADA parking available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADA_SPACES</attrlabl>
+                <attrdef>Number of ADA spaces</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Park</attrlabl>
+                <attrdef>Acess point is a park or is located within a park</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>RV_SPACES</attrlabl>
+                <attrdef>No. of RV parking spaces</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>RV_Parking</attrlabl>
+                <attrdef>RV parking available at the access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Lifeguard</attrlabl>
+                <attrdef>Lifeguard at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Restroom</attrlabl>
+                <attrdef>Restrooms available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADA_ACCESSIBLE</attrlabl>
+                <attrdef>ADA accessible access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>BOARDWALK_TRAIL</attrlabl>
+                <attrdef>Boardwalk, trails, walkways (paved or unpaved) are available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHELTER_COVERED_PICNIC</attrlabl>
+                <attrdef>Covered picnic areas available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PICNIC_OPEN</attrlabl>
+                <attrdef>Open picnic areas available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CAMPING_FULL_FACILITY</attrlabl>
+                <attrdef>Full facility camping available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PRIMITIVE_CAMPING</attrlabl>
+                <attrdef>Primitive camping available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shower</attrlabl>
+                <attrdef>Showers available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FISHING_PIER</attrlabl>
+                <attrdef>Fishing pier at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Boat_Ramp</attrlabl>
+                <attrdef>Boat ramp available at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NUMBER_OF_SLIPS</attrlabl>
+                <attrdef>Number of slips at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PETS_ALLOWED</attrlabl>
+                <attrdef>Pets allowed at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOOD_ON_SITE</attrlabl>
+                <attrdef>Food on site</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOOD_NEARBY</attrlabl>
+                <attrdef>Food within walking distance from access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Marina</attrlabl>
+                <attrdef>Marina at access point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Notes</attrlabl>
+                <attrdef>Notes</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PUBLIC_WEB_CAM</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Other</attrlabl>
+                <attrdef>other</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SITE_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY_ABB</attrlabl>
+                <attrdef>A two character code used to identify each county</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY_ID</attrlabl>
+                <attrdef>A six digit number used to identify each public beach access in the county.  The number is designed to accommodate additional points and the removal of points without affecting the County_ID number of other points in the county.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATE_ID</attrlabl>
+                <attrdef>The State_ID attribute is a ten character alphanumeric code used for two purposes.  The first is to provide a unique identification for each of the state's beach access points.  The second purpose is to allow the user to sort the beach access points in a geographic arrangement around the state beginning with Nassau County down the Atlantic Coast, around the Keys, up the peninsula on the Gulf, and across the panhandle to Escambia County. The code is comprised of three main parts. The first part of the State ID is a two digit County_Num.  This number helps sort each of the points in order around the state.The second part of the State_ID is two characters which identify the county. This part is used to separate the first and third parts of the code so the points can be sorted within each county.The third part of the code is the six digit County_ID.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Web_URL</attrlabl>
+                <attrdef>Access point website</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ACCESS_STATUS</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20210330</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd</address>
+                    <address>MS 6520</address>
+                    <city>Tallahassee</city>
+                    <state>Florida</state>
+                    <postal>32399</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
